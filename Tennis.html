@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="Tennis.css">
+        <script>
+            function Age(){
+                var A=Number(document.getElementById("age").value);
+                if(A<10){
+                    alert("You are not eligible for this game.");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="header"><img src="vlcsnap-2020-03-26-22h25m59s778.png" height="100px" width="100px"><h1>St.John Sports Academy</h1></div>
+        <header id="Head"><h1>Tennis</h1></header>
+        <div id="Beach"><h1 id="Details">Details for Tennis</h1>
+        <ul>
+            <li>Duration: 2.30pm - 5.00pm</li>
+            <li>Coach: Coach Lucas (a certified player)</li>
+            <li>Location: St.John's Sports Hall, Court 2 - 14</li>
+            <li>Age limit: 10 - 30yrs old</li>
+        </ul>
+        </div>
+        <div id="Facts">Tiring sport for everyone.</div><div id="middle">
+        <div id="FormRegistration"><h1>Registration Form</h1>
+     <form name="Form1" method="POST">
+     <table>
+     <tr>
+         <td class="label">First Name</td>
+         <td><input type="text" size="30px" maxlength="20" required name="FirstName" placeholder="FirstName"></td>
+     </tr>
+    <tr>
+        <td class="label">Last Name</td>
+        <td><input type="text" size="30px" maxlength="20" required name="LastName" placeholder="LastName"></td>
+    </tr>
+    <tr>
+        <td class="label">Age</td>
+        <td><input type="text" size="30px" maxlength="20" required name="Age" placeholder="Age" id="age"></td>
+    </tr>
+    <tr>
+        <td class="label">Phone Number</td>
+        <td><input type="tel" size="30px" maxlength="10" required name="PhoneNumber" placeholder="Phone Number"></td>
+    </tr>
+    <tr>
+        <td class="label">Email</td>
+        <td><input type="email" size="30px" required name="Email" placeholder="Email"></td>
+    </tr>
+    <tr>
+        <td class="label">Date of Birth</td>
+        <td><input type="date" size="30px" required name="DOB"></td>
+    </tr>
+    <tr>
+        <td class="label">Gender</td>
+        <td>Male<input type="radio" size="30px" required name="Gender1">Female<input type="radio" size="30px" required name="Gender1"></td>
+    </tr>
+    <tr>
+        <td class="label">Country</td>
+        <td><select name="Country" id="Country">
+            <option value="-1" selected>Choose you country!</option>
+            <option value="1">Malaysia</option>
+            <option value="2">India</option>
+            <option value="3">Singapore</option>
+            <option value="4">Thailand</option>
+            <option value="5">China</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td class="label">Address</td>
+        <td><textarea name="Address" id="Address" cols="40" rows="10"></textarea></td>
+    </tr>
+    <tr>
+        <td class="label">Username</td>
+        <td><input type="text" size="30px" maxlength="15" required placeholder="Username" name="Username"></td>
+    </tr>
+    <tr>
+        <td class="label">Password</td>
+        <td><input type="password" size="30px" required placeholder="Password" name="Password"></td>
+    </tr>
+    </fieldset>
+    <tr>
+        <td colspan="2"><input type="submit" size="30px" name="Submit" value="Submit" onclick="Age();"><input type="reset" size="30px" name="Reset" value="Reset"></td>
+    </tr>
+     </table>
+     </form>
+     </div>
+    <div id="fees"><header><h1>Fee Details</h1></header>
+    <ul>
+        <li>2 days a week lesson: RM200</li>
+        <li>5 days a week lesson: RM250</li>
+        <li>6 months lesson- 2 days a week: RM800</li>
+        <li>Discounts - Sibling discount(If you have a sibling that is a member of the academy.<br> Note:The discount will be valid even if you're sibling is in a different sport.</li>
+        <li>Parent Discount(If you have parenst that are interested in joining the academy.</li>
+        <li>Pls do note that the fees for all the sports changes every 5 years.</li>
+    </ul>
+    </div>
+    </div>
+    <footer>Contact Details
+        <ul>
+            <li>If you have any problems pls contact 016-285-9940.</li>
+            <li>St.John Sports Academy number: 012-959-4327</li>
+        </ul>
+        <p>Copyright @2021 by Kirrthana</p>
+        </footer>
+    </body>
+</html>
