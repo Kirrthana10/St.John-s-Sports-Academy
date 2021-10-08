@@ -1,0 +1,105 @@
+#Ball{
+    text-align: left;
+    color: darkviolet;
+}
+#Head{
+    color:magenta;
+    text-align: center;
+    margin: 12px;
+}
+#Details{
+    color:orange;
+    margin: 12px;
+}
+table{
+    border:aqua 5px double;
+}
+tr{
+    border-color:pink;
+    border-width: 5px;
+}
+td{
+    border-color:plum;
+    border-width: 5px;
+}
+input{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 200;
+}
+h1{
+    border-color: mediumorchid;
+    border-width: 5px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+body{
+    background-color: lightskyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.label{
+    color:darkblue;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    font-style: italic;
+}
+#fees h1{
+    color: darkmagenta;
+}
+#FormRegistration{
+    padding: 10px;
+    float: left;
+}
+#fees{
+    padding: 10px;
+    float: left;
+}
+#Beach{
+    float: left;
+}
+#Facts{
+    height: 50px;
+    width: 100px;
+    background-color: gold;
+    border: 5px solid blue;
+    color: darkseagreen;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 50px;
+    float: left;
+    padding: 30px;
+    margin-left: 100px;
+}
+#Facts:hover{
+    height: 100px;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+#middle{
+    clear: left;
+}
+#header{
+   background-image: url("https://cdn.shopify.com/s/files/1/0020/9407/1890/files/2_480x480.jpg?v=1559302854");
+   height: 50%;
+   width: 100%;   
+}
+#header h1{
+    text-align: center;
+    color:cyan;
+    padding-bottom: 80px;
+}
+#header img{
+    padding: 10px;
+    margin: 10px;
+}
+footer{
+background-color: lightcyan;
+font-size: small;
+text-align: center;
+padding-top: 30px;          
+clear: left;
+}
