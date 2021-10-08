@@ -1,0 +1,45 @@
+#header{
+    background-image: url("https://cdn.shopify.com/s/files/1/0020/9407/1890/files/2_480x480.jpg?v=1559302854");
+    height: 50%;
+    width: 100%;   
+ }
+ #header h1{
+     text-align: center;
+     color:cyan;
+     padding-bottom: 80px;
+ }
+ #header img{
+     padding: 10px;
+     margin: 10px;
+ }
+ a:link{
+     color:darkblue;
+ }
+ a:visited{
+     color: darkorange;
+ }
+ a:hover{
+     color: forestgreen;
+     font-size: large;
+ }
+ a:active{
+     color: fuchsia;
+ }
+ #Bad{
+     float: left;
+ }
+ #Badminton{
+     float: left;
+ }
+ #about{
+     clear: left;
+ }
+ footer{
+     background-color: lightcyan;
+     font-size: small;
+     text-align: center;
+     padding-top: 30px;
+ }
+ ul{
+     list-style: none;
+ }
